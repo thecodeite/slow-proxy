@@ -1,0 +1,20 @@
+{
+  "name": "slow-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sam Plews <the@codeite.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs-extra": "^6.0.1",
+    "gm": "^1.23.1",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

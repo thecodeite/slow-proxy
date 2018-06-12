@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/samplews/.nvm/versions/node/v8.9.4/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add express
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/usr/local/git/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/samplews/.rvm/gems/ruby-2.2.4/bin:/Users/samplews/.rvm/gems/ruby-2.2.4@global/bin:/Users/samplews/.rvm/rubies/ruby-2.2.4/bin:/Users/samplews/var/google-cloud-sdk/bin:/Users/samplews/.nvm/versions/node/v8.9.4/bin:~/.rvm/bin:./node_modules/.bin:/usr/local/opt/go/libexec/bin:/usr/local/heroku/bin:/Users/samplews/go/bin:/mm/unofficial-build-tools/bin/:~/bin:/usr/local/m-cli:/Users/samplews/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "slow-proxy",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Sam Plews <the@codeite.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:133094:19)
+      at ontimeout (timers.js:475:11)
+      at tryOnTimeout (timers.js:310:5)
+      at Timer.listOnTimeout (timers.js:270:5)
